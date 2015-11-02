@@ -4,7 +4,7 @@ A Redux boilerplate that enables seamless development workflow for React+Redux+E
 
 ## Install & Run
 1. `npm install`
-2. `npm start` to kick-start `node-express` server.
+2. `npm start` to kick-start `node-express` server. (hot-loader will be running as well)
 
 
 ## Note
