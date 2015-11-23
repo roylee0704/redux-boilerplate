@@ -1,9 +1,17 @@
 import React, {Component, PropTypes} from 'react';
 import {connect} from 'react-redux';
+import {Grid} from 'react-flexbox-grid';
+
 
 class App extends Component {
   render() {
-    return (<div> Hello From React-Boilerplate </div>);
+    return (
+      <div>
+        <Grid>
+          Hello From React-Boilerplate
+        </Grid>
+      </div>
+    );
   }
 }
 
