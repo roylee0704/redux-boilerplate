@@ -15,7 +15,7 @@ import createLogger from 'redux-logger';
 import App from './containers/App';
 import rootReducer from './reducers/index';
 import 'stylesheets/base';
-
+import 'flexboxgrid/dist/flexboxgrid.css';
 
 const loggerMiddleware = createLogger();
 const createStoreWithMiddleware = applyMiddleware(loggerMiddleware, thunkMiddleware)(createStore);
